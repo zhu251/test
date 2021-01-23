@@ -1,0 +1,35 @@
+
+body{
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,
+    Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    color: #333;
+    background-color: #fff;
+    min-width: 1226px;
+}
+body,ul,ol,h1,h2,h3,h4,h5,h6,p,div{
+    padding: 0;  margin: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{ 
+    text-decoration: none;
+}
+button,input[type='text']{
+    border: none;
+    outline: none;
+}
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.iconfont{
+    display: inline-block;
+}
+
+
+
+
+
+
